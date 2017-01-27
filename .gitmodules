@@ -25,3 +25,6 @@
 [submodule "pack/plugins/start/auto-pairs"]
 	path = pack/plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/plugins/start/phpcomplete"]
+	path = pack/plugins/start/phpcomplete
+	url = https://github.com/shawncplus/phpcomplete.vim
