@@ -16,3 +16,6 @@
 [submodule "pack/plugins/start/limelight"]
 	path = pack/plugins/start/limelight
 	url = https://github.com/junegunn/limelight.vim
+[submodule "pack/plugins/start/sparkup"]
+	path = pack/plugins/start/sparkup
+	url = https://github.com/rstacruz/sparkup
