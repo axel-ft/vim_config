@@ -7,3 +7,6 @@
 [submodule "pack/plugins/start/nerdtree-git-plugin"]
 	path = pack/plugins/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "pack/plugins/start/fugitive"]
+	path = pack/plugins/start/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
