@@ -13,3 +13,6 @@
 [submodule "pack/plugins/start/sartify"]
 	path = pack/plugins/start/sartify
 	url = https://github.com/mhinz/vim-startify
+[submodule "pack/plugins/start/limelight"]
+	path = pack/plugins/start/limelight
+	url = https://github.com/junegunn/limelight.vim
