@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/nerdcommenter"]
 	path = pack/plugins/start/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+[submodule "pack/plugins/start/nerdtree-tabs"]
+	path = pack/plugins/start/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
