@@ -25,6 +25,3 @@
 [submodule "pack/plugins/start/auto-pairs"]
 	path = pack/plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
-[submodule "pack/plugins/start/php-vim"]
-	path = pack/plugins/start/php-vim
-	url = https://github.com/StanAngeloff/php.vim.git
