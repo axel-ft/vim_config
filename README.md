@@ -7,5 +7,21 @@ mv ~/.vim ~/.vim.backup                                 # Backup VIM folder
 mkdir ~/.vim                                            # Create new empty .vim folder
 cd ~/.vim
 git clone https://github.com/axel-ft/vim_config.git .   # Clone this repo
-./install.sh                                       # Launch install
+./install.sh                                            # Launch install
 ```
+# Included plugins
+##Auto-pairs
+##Colorschemes
+##Fugitive
+##Limelight
+##NERDCommenter
+##NERDTree
+##NERDTree-Git-Plugin
+##NERDTree-Tabs
+##PHPComplete
+##Startify
+##Sparkup
+##Syntastic
+##Vim-airline
+##vim-airline-themes
+##YouCompleteMe
