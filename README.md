@@ -7,5 +7,5 @@ mv ~/.vim ~/.vim.backup                                 # Backup VIM folder
 mkdir ~/.vim                                            # Create new empty .vim folder
 cd ~/.vim
 git clone https://github.com/axel-ft/vim_config.git .   # Clone this repo
-sudo ./install.sh                                       # Launch install
+./install.sh                                       # Launch install
 ```
