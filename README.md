@@ -12,6 +12,7 @@ git clone https://github.com/axel-ft/vim_config.git .   # Clone this repo
 # Included plugins
 ##Auto-pairs
 GitHub repo can be found here : https://github.com/jiangmiao/auto-pairs
+
 Features : 
 - Insert or delete brackets, parens, quotes in pair
 - Insert new indented line after Return
@@ -25,8 +26,17 @@ Features :
 - Delete repeated pairs in one time
 - Fly mode
 
+Auto-pairs is automatically launched with VIM after installation. 
+Just type and see.
+
 ##Colorschemes
 GitHub repo can be found here : https://github.com/flazz/vim-colorschemes
+
+This plugin adds a bunch of colorschemes to VIM. All of them are available after installation.
+To change the colorscheme, just type :colorscheme <NAME_OF_COLORSCHEME> in VIM, or change the colorscheme line in the vimrc file (in ~/.vim folder)
+
+The default colorscheme installed and activated is Tomorrow-Bright-Night
+
 ##Fugitive
 GitHub repo can be found here : https://github.com/tpope/vim-fugitive
 ##Limelight
