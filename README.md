@@ -12,6 +12,18 @@ git clone https://github.com/axel-ft/vim_config.git .   # Clone this repo
 # Included plugins
 ##Auto-pairs
 GitHub repo can be found here : https://github.com/jiangmiao/auto-pairs
+Features : 
+- Insert or delete brackets, parens, quotes in pair
+- Insert new indented line after Return
+- Insert spaces before closing characters, only for [], (), {}
+- Skip ' when inside a word
+- Skip closed bracket
+- Ignore auto-pair when previous character is \
+- Fast wrap
+- Quick jump to closed pair
+- Support ```, ''' and """
+- Delete repeated pairs in one time
+- Fly mode
 ##Colorschemes
 GitHub repo can be found here : https://github.com/flazz/vim-colorschemes
 ##Fugitive
