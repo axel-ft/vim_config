@@ -33,6 +33,12 @@ set display=truncate
 " text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
 
+" Tabulations de 4 espaces
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
 " Do incremental searching when it's possible to timeout.
 " Search will begin while typing
 if has('reltime')
@@ -122,3 +128,36 @@ endif
 
 " Define coloscheme here
 colorscheme Tomorrow-Night-Bright
+
+" Open NERDTree if no file specified
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Open NERDTree if vim is opening a directory
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+
+" Mapping Shift-T to toggle NERDTree
+map <S-t> :NERDTreeToggle<CR>
+
+" Limelight default coefficient when toggled
+let g:limelight_default_coefficient = 0.7
+
+" Mapping Shift-L to toggle Limelight
+map <S-l> :Limelight!!<CR>
+
+" Airline statusbar settings
+set laststatus=2
+let g:bufferline_echo = 0
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+" Syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
