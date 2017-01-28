@@ -50,15 +50,34 @@ This plugin adds some Git commands. Here is some examples of what you can do :
 - :Gwrite = git add / git checkout
 - :Gmove = git mv
 - :Gremove = git rm
-etc
+- etc
 
 The plugin is automatically loaded on VIM startup.
 
 ##Limelight
 GitHub repo can be found here : https://github.com/junegunn/limelight.vim
 
+The plugin is ready to be activated after installation.
+If you want to focus on what you're writing, just press Shift + L. The actual paragraph will keep the colors while the others will turn grey.
+
+The default coefficient is set to 0.7 in the ~/.vim/vimrc and can be changed at any moment.
+Limeloght can also be toggled using the :Limelight!![0.0 ~ 1.0] command where the number between brackets is the coefficient.
+
 ##NERDCommenter
 GitHub repo can be found here : https://github.com/scrooloose/nerdcommenter
+
+Commenting the code is made easier. Select the lines (in visual mode) to toggle in comments and use the shortcuts : 
+- <leader>cc : transfirm into comment the selected text
+- <leader>cn : same as cc but forces nesting
+- <leader>c<space> : toggle the comment state of the selected lines (based on the ofrst line comment state)
+- <leader>ci : toggle the comment state of each selected line individually
+- <leader>c$ : comment from the cursor to the end of line
+- <leader>cA : add comment delimiters to the end of line and goes into insert mode between them
+- <leader>cu : uncomment the selected lines
+
+By default, the leader key is backslash "\"
+
+The plugin is loaded with VIM on startup after installation
 
 ##NERDTree
 GitHub repo can be found here : https://github.com/scrooloose/nerdtree
