@@ -24,6 +24,7 @@ Features :
 - Support ```, ''' and """
 - Delete repeated pairs in one time
 - Fly mode
+
 ##Colorschemes
 GitHub repo can be found here : https://github.com/flazz/vim-colorschemes
 ##Fugitive
