@@ -59,6 +59,7 @@ GitHub repo can be found here : https://github.com/junegunn/limelight.vim
 
 The plugin is ready to be activated after installation.
 If you want to focus on what you're writing, just press Shift + L. The actual paragraph will keep the colors while the others will turn grey.
+The shortcut mapping can be modified in the ~/.vim/vimrc file
 
 The default coefficient is set to 0.7 in the ~/.vim/vimrc and can be changed at any moment.
 Limeloght can also be toggled using the :Limelight!![0.0 ~ 1.0] command where the number between brackets is the coefficient.
@@ -67,45 +68,65 @@ Limeloght can also be toggled using the :Limelight!![0.0 ~ 1.0] command where th
 GitHub repo can be found here : https://github.com/scrooloose/nerdcommenter
 
 Commenting the code is made easier. Select the lines (in visual mode) to toggle in comments and use the shortcuts : 
-- <leader>cc : transfirm into comment the selected text
-- <leader>cn : same as cc but forces nesting
-- <leader>c<space> : toggle the comment state of the selected lines (based on the ofrst line comment state)
-- <leader>ci : toggle the comment state of each selected line individually
-- <leader>c$ : comment from the cursor to the end of line
-- <leader>cA : add comment delimiters to the end of line and goes into insert mode between them
-- <leader>cu : uncomment the selected lines
+- \<leader\>cc : transfirm into comment the selected text
+- \<leader\>cn : same as cc but forces nesting
+- \<leader\>c\<space\> : toggle the comment state of the selected lines (based on the ofrst line comment state)
+- \<leader\>ci : toggle the comment state of each selected line individually
+- \<leader\>c$ : comment from the cursor to the end of line
+- \<leader\>cA : add comment delimiters to the end of line and goes into insert mode between them
+- \<leader\>cu : uncomment the selected lines
 
-By default, the leader key is backslash "\"
+By default, the \<leader\> key is backslash "\"
 
 The plugin is loaded with VIM on startup after installation
 
 ##NERDTree
 GitHub repo can be found here : https://github.com/scrooloose/nerdtree
 
+
+
 ##NERDTree-Git-Plugin
 GitHub repo can be found here : https://github.com/xuyuanp/nerdtree-git-plugin
+
+
 
 ##NERDTree-Tabs
 GitHub repo can be found here : https://github.com/jistr/vim-nerdtree-tabs
 
+
+
 ##PHPComplete
 GitHub repo can be found here : https://github.com/shawncplus/phpcomplete.vim
+
+
 
 ##Startify
 GitHub repo can be found here : https://github.com/mhinz/vim-startify
 
+
+
 ##Sparkup
 GitHub repo can be found here : https://github.com/rstacruz/sparkup
+
+
 
 ##Syntastic
 GitHub repo can be found here : https://github.com/scrooloose/syntastic
 
+
+
 ##Vim-airline
 GitHub repo can be found here : https://github.com/vim-airline/vim-airline
+
+
 
 ##Vim-airline-themes
 GitHub repo can be found here : https://github.com/vim-airline/vim-airline-themes
 
+
+
 ##YouCompleteMe
 GitHub repo can be found here : https://github.com/valloric/youcompleteme
+
+
 
