@@ -19,9 +19,6 @@
 [submodule "pack/plugins/start/sparkup"]
 	path = pack/plugins/start/sparkup
 	url = https://github.com/rstacruz/sparkup
-[submodule "pack/plugins/start/youcompleteme"]
-	path = pack/plugins/start/youcompleteme
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "pack/plugins/start/auto-pairs"]
 	path = pack/plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
