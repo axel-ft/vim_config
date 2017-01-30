@@ -123,10 +123,3 @@ GitHub repo can be found here : https://github.com/vim-airline/vim-airline
 ##Vim-airline-themes
 GitHub repo can be found here : https://github.com/vim-airline/vim-airline-themes
 
-
-
-##YouCompleteMe
-GitHub repo can be found here : https://github.com/valloric/youcompleteme
-
-
-
