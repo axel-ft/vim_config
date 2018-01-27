@@ -41,5 +41,5 @@
 	path = pack/plugins/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "pack/plugins/start/tender"]
-    path = pack/plugins/start/syntastic
-    url = https://github.com/jacoborus/tender.vim.git
+	path = pack/plugins/start/tender
+	url = https://github.com/jacoborus/tender.vim.git
